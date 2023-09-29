@@ -1,13 +1,13 @@
 package senac.java.Domain;
 
-public class Salesperson {
+public class Salespersons {
 
-    int id = 0;
-    String name = "";
-    String lastName = "";
-    String phoneNumber = "";
-    String cpf = "";
-    String email= "";
-    String address= "";
+   public static int id = 0;
+    public static String name = "";
+    public static String lastName = "";
+    public static String phoneNumber = "";
+    public static String cpf = "";
+    public static String email= "";
+    public static String address= "";
 
 }

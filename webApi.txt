@@ -1,0 +1,61 @@
+Users:
+int id (chave primária - primary key)
+string name
+string lastName
+int age
+string address
+string email (campo único)
+string password
+string cpf (campo único)
+
+Products:
+int id (chave primária - primary key)
+string productName
+string productPrice
+string productColor
+string productDescription
+string img
+
+Stores:
+int id (chave primária - primary key)
+string address
+string city
+string state
+string country
+string cnpj (campo único)
+string phoneNumber
+string email
+
+Salesperson:
+int id (chave primária - primary key)
+string name
+string lastName
+String phoneNumber
+string cpf (campo único)
+string email
+string address
+------------store Slaesperson -------- (ligação 1x1)
+
+Criar as models para o projeto
+
+Criar um tela de opções - As opções serão 4 (
+1. Cadastrar Vendedor
+2. Cadastrar Cliente
+3. Cadastrar Produto
+4. Sair
+)
+
+Cadas tela de cadastro vai solicitar os dados das models de 
+acordo com sua tela.
+
+Criar método que será chamado ao selecionar para sair.
+
+Em cada tela de cadastro, ao final do cadastro, mostrar as informações obtidas e 
+perguntar se a pessoa quer cadastrar um novo (vendedor ou cliente ou produto). Se a 
+resposta for SIM, voltar ao início do cadastro. Se a resposta for NÃO, voltar para a tela 
+principal com as 4 opções iniciais.
+
+As telas vampos criar dentro do pacote View
+
+Os métodos (e classes) vamos criar dentro do pacote Services quando ele fizer alguma acão.
+
