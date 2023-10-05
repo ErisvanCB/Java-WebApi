@@ -66,7 +66,7 @@ public class Telas {
         System.out.println("Digite o sobrenome: ");
         user.lastName = sc.nextLine();
 
-        System.out.print("Digite a idade: ");
+        System.out.println("Digite a idade: ");
         user.age = Integer.parseInt(sc.nextLine());
 
         System.out.println("Digite o endereço: ");
